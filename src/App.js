@@ -7,6 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          This app is running in Docker
+        </p>
+        <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -15,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          This is variable from .env: {window._env_ && window._env_.TEST_ENV_VARIABLE}
         </a>
       </header>
     </div>
